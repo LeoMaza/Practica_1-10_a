@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Changer</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body >
+    
+    <div class="h1" >
+<h1>Bitcoin Changer</h1>
+        <div>
+            <input id="bitcoinDolares" type="number" placeholder="Bitcoin...">
+
+            <div>
+                <div>
+                    <button class="btn-1" onclick="cambio()">Cambio a Dolares</button>
+                </div>
+                <input id="bitcoinEth" type="number" placeholder="Bitcoin...">
+            </div>
+            <div>
+                <button id="btn-2" onclick="cambioEth()">
+                    Cambio a Ethereum
+                </button>
+            </div>
+            <div id="mensaje_resultado" style="margin-top: 30 px; ">
+                <h3></h3>
+            </div>
+        </div>
+
+        <script src="onClick.js"></script>
+        <script src="cambio.js"></script>
+
+
+
+
+</body>
+
+</html>
